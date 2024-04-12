@@ -13,10 +13,12 @@
   "scripts": {
     "start": "webpack serve --mode development --open",
     "build": "webpack --mode production",
+    "test": "npm run eslint",
     "lint": "eslint src/"
   },
   "devDependencies": {
-    "@babel/core": "7.20.5",
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.20.5",
     "@babel/preset-env": "7.20.2",
     "babel-loader": "9.1.0",
     "copy-webpack-plugin": "11.0.0",
