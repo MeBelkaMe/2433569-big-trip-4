@@ -28,3 +28,4 @@ const updateItem = (items, update) => {
 const isEscape = (evt) => evt.key === 'Escape' || evt.key === 'Esc';
 
 export { getRandomInteger, getRandomElement, updateItem, isEscape };
+
